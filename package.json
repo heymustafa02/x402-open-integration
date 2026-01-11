@@ -1,0 +1,18 @@
+{
+  "name": "x402-open-integration",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "viem": "^2.44.1",
+    "x402-express": "^1.1.0",
+    "x402-open": "^1.2.9"
+  }
+}
